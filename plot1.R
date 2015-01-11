@@ -1,5 +1,7 @@
-# Requeriment: 
-# install.packages('sqldf')
+# Requeriments: 
+# 1) download and uncompress the dataset
+# 2) install.packages('sqldf')
+
 library(sqldf)
 setwd('~/ExData_Plotting1')
 df<-read.csv.sql('household_power_consumption.txt',"select * from file where Date in ('1/2/2007','2/2/2007')", sep = ';', header = T)

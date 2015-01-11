@@ -1,5 +1,7 @@
-# Requeriment: 
-# install.packages('sqldf')
+# Requeriments: 
+# 1) download and uncompress the dataset
+# 2) install.packages('sqldf')
+
 setwd('~/ExData_Plotting1')
 library(sqldf)
 Sys.setlocale(category = "LC_TIME", locale = "C")
