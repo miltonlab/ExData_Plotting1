@@ -21,7 +21,7 @@ plot(y=df$Sub_metering_1, x=df$DateTime, ylab='Energy sub metering', xlab='', ty
 lines(y=df$Sub_metering_1, x=df$DateTime, type='l', col='black')
 lines(y=df$Sub_metering_2, x=df$DateTime, type='l', col='red')
 lines(y=df$Sub_metering_3, x=df$DateTime, type='l', col='blue')
-legend('topright', legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lwd=2,col=c("black", "red", "blue"), cex=0.75, bty='n', xjust=1)
+legend('topright', legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lwd=2,col=c("black", "red", "blue"), cex=0.55, lty=c(1,1), bty='n', xjust=1)
 #2,2
 plot(y=df$Global_reactive_power, x=df$DateTime, xlab='datetime',ylab='Global_reactive_power',  type='n', cex.axis=0.75, cex.lab=0.75)
 lines(y=df$Global_reactive_power, x=df$DateTime, type='l')
